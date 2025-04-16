@@ -16,14 +16,33 @@
     width: 400px;
     height: 500px;
     gap: 30px;
+    box-shadow: 0px 0px 10px #c9c9c9;
 }
 
 .form h1{
-    color: #272525c0;
+    color: #111111;
 }
 
 
 .form input{
     width: 100%;
     padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 1px 10px #4d4d4d;
+}
+
+.form button{
+    width: 200px;
+    padding: 15px;
+    color: #f1f1f1;
+    background-color: #3f3f3f;
+    outline-style: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover{
+    box-shadow: 0px 0px 10px #3f3f3f;
 }
