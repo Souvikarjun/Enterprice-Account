@@ -30,7 +30,12 @@
     /* animation-play-state: paused; */
 }
 
-.links:hover{
+.deactive:hover{
+    background-color: #009407;
+    color: #252525;
+}
+
+.active{
     /* animation-name: anim 1s ease-in; */
     background-color: #006805;
     /* animation-fill-mode: forwards; */
