@@ -5,6 +5,7 @@ import Image from "next/image"
 import styles from "./navbar.module.css"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { Searchbar } from "../searchbar/searchbar"
 
 export const Navbar = () => {
 
@@ -24,10 +25,8 @@ export const Navbar = () => {
                 <li className={styles.comp}>Transactions</li>
             </Link>
         </ul>
-        <form action="" className={styles.form}>
-          <input type="text" placeholder="Search"/>
-        </form>
-        {/* // <ContactButton text="Contact Me"/> */}
+        <Searchbar/>
+        
     </div>
   )
 }

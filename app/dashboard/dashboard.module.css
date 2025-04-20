@@ -1,3 +1,11 @@
 .container{
-    display: auto;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    height: 100vh;
+    margin: 50px;
+    /* background-color: #dbdbdb; */
+    background: #666666;
+    color: #252525;
 }
+
