@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from "./transactions.module.css"
 import Image from 'next/image'
+import { UpperBar } from '@/app/component/upperbar/upperbar'
 
 
 function Transaction() {
   return (
     <div className={styles.container}>
+      <UpperBar/>
       <h2 className={styles.title}>Latest Transactions</h2>
       <table className={styles.table}>
         <thead>
